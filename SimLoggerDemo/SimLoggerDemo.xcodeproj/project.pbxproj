@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794308371CBE793A00B7BA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794308361CBE793A00B7BA8B /* AppDelegate.swift */; };
+		794308391CBE793A00B7BA8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794308381CBE793A00B7BA8B /* ViewController.swift */; };
+		7943083C1CBE793A00B7BA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7943083A1CBE793A00B7BA8B /* Main.storyboard */; };
+		7943083E1CBE793A00B7BA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7943083D1CBE793A00B7BA8B /* Assets.xcassets */; };
+		794308411CBE793A00B7BA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7943083F1CBE793A00B7BA8B /* LaunchScreen.storyboard */; };
+		794308491CBF352500B7BA8B /* SimLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794308481CBF352500B7BA8B /* SimLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		794308331CBE793A00B7BA8B /* SimLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794308361CBE793A00B7BA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		794308381CBE793A00B7BA8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7943083B1CBE793A00B7BA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7943083D1CBE793A00B7BA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794308401CBE793A00B7BA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		794308421CBE793A00B7BA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794308481CBF352500B7BA8B /* SimLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimLogger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794308301CBE793A00B7BA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7943082A1CBE793900B7BA8B = {
+			isa = PBXGroup;
+			children = (
+				794308351CBE793A00B7BA8B /* SimLoggerDemo */,
+				794308341CBE793A00B7BA8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794308341CBE793A00B7BA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794308331CBE793A00B7BA8B /* SimLoggerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794308351CBE793A00B7BA8B /* SimLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				794308361CBE793A00B7BA8B /* AppDelegate.swift */,
+				794308381CBE793A00B7BA8B /* ViewController.swift */,
+				7943084A1CBF353100B7BA8B /* SimLogger */,
+				7943083A1CBE793A00B7BA8B /* Main.storyboard */,
+				7943083D1CBE793A00B7BA8B /* Assets.xcassets */,
+				7943083F1CBE793A00B7BA8B /* LaunchScreen.storyboard */,
+				794308421CBE793A00B7BA8B /* Info.plist */,
+			);
+			path = SimLoggerDemo;
+			sourceTree = "<group>";
+		};
+		7943084A1CBF353100B7BA8B /* SimLogger */ = {
+			isa = PBXGroup;
+			children = (
+				794308481CBF352500B7BA8B /* SimLogger.swift */,
+			);
+			name = SimLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794308321CBE793A00B7BA8B /* SimLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794308451CBE793A00B7BA8B /* Build configuration list for PBXNativeTarget "SimLoggerDemo" */;
+			buildPhases = (
+				7943082F1CBE793A00B7BA8B /* Sources */,
+				794308301CBE793A00B7BA8B /* Frameworks */,
+				794308311CBE793A00B7BA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimLoggerDemo;
+			productName = SimLoggerDemo;
+			productReference = 794308331CBE793A00B7BA8B /* SimLoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7943082B1CBE793900B7BA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LouisHuang;
+				TargetAttributes = {
+					794308321CBE793A00B7BA8B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7943082E1CBE793900B7BA8B /* Build configuration list for PBXProject "SimLoggerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7943082A1CBE793900B7BA8B;
+			productRefGroup = 794308341CBE793A00B7BA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794308321CBE793A00B7BA8B /* SimLoggerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794308311CBE793A00B7BA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794308411CBE793A00B7BA8B /* LaunchScreen.storyboard in Resources */,
+				7943083E1CBE793A00B7BA8B /* Assets.xcassets in Resources */,
+				7943083C1CBE793A00B7BA8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7943082F1CBE793A00B7BA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794308491CBF352500B7BA8B /* SimLogger.swift in Sources */,
+				794308391CBE793A00B7BA8B /* ViewController.swift in Sources */,
+				794308371CBE793A00B7BA8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7943083A1CBE793A00B7BA8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7943083B1CBE793A00B7BA8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7943083F1CBE793A00B7BA8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794308401CBE793A00B7BA8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794308431CBE793A00B7BA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		794308441CBE793A00B7BA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794308461CBE793A00B7BA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimLoggerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louis.SimLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		794308471CBE793A00B7BA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimLoggerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louis.SimLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7943082E1CBE793900B7BA8B /* Build configuration list for PBXProject "SimLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794308431CBE793A00B7BA8B /* Debug */,
+				794308441CBE793A00B7BA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794308451CBE793A00B7BA8B /* Build configuration list for PBXNativeTarget "SimLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794308461CBE793A00B7BA8B /* Debug */,
+				794308471CBE793A00B7BA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7943082B1CBE793900B7BA8B /* Project object */;
+}

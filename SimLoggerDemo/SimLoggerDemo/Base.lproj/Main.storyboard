@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimLoggerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42d-zj-fjC">
+                                <rect key="frame" x="200" y="136" width="200" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="sEg-rr-56M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Print DEBUG log" backgroundImage="btn_bg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionPrintDebug:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAD-ie-ojZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK8-MA-5ox">
+                                <rect key="frame" x="200" y="237" width="200" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Scv-4n-Cl3"/>
+                                </constraints>
+                                <state key="normal" title="Print INFO log" backgroundImage="btn_bg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionPrintInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WOE-qA-vSL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcw-US-oeC">
+                                <rect key="frame" x="200" y="338" width="200" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Gxo-g1-HPA"/>
+                                </constraints>
+                                <state key="normal" title="Print WARNING log" backgroundImage="btn_bg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionPrintWarning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KcC-NV-2lS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyj-4M-XZC">
+                                <rect key="frame" x="200" y="439" width="200" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="fiG-1L-UGI"/>
+                                </constraints>
+                                <state key="normal" title="Print ERROR log" backgroundImage="btn_bg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionPrintError:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0a-lC-4iP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SimLogger Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajk-hf-T9g">
+                                <rect key="frame" x="20" y="50" width="560" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lcw-US-oeC" firstAttribute="top" secondItem="VK8-MA-5ox" secondAttribute="bottom" constant="50" id="7y8-Yq-Qsw"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Ajk-hf-T9g" secondAttribute="leading" id="Dy4-06-7y6"/>
+                            <constraint firstItem="VK8-MA-5ox" firstAttribute="top" secondItem="42d-zj-fjC" secondAttribute="bottom" constant="50" id="JFC-Av-Q2M"/>
+                            <constraint firstItem="kyj-4M-XZC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K99-15-fgF"/>
+                            <constraint firstItem="VK8-MA-5ox" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KcI-bl-buA"/>
+                            <constraint firstItem="42d-zj-fjC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OX0-We-8nW"/>
+                            <constraint firstItem="Ajk-hf-T9g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="SKe-rU-AFa"/>
+                            <constraint firstItem="Lcw-US-oeC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SuA-rb-POB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ajk-hf-T9g" secondAttribute="trailing" id="kgi-r3-fvU"/>
+                            <constraint firstItem="kyj-4M-XZC" firstAttribute="top" secondItem="Lcw-US-oeC" secondAttribute="bottom" constant="50" id="opc-dH-DOM"/>
+                            <constraint firstItem="42d-zj-fjC" firstAttribute="top" secondItem="Ajk-hf-T9g" secondAttribute="bottom" constant="50" id="y6G-Fd-ZEO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_bg" width="341" height="51"/>
+    </resources>
+</document>
