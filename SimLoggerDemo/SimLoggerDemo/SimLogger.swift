@@ -17,7 +17,7 @@ enum LogLevel:Int {
 
 class SimLogger: NSObject {
     static let instance = SimLogger()
-    var level:Int = LogLevel.Info.rawValue  // Default level: Info
+    private var level:Int = LogLevel.Info.rawValue  // Default level: Info
     
     class func getInstance() -> SimLogger {
         return instance
