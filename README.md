@@ -1,5 +1,5 @@
 # SimLogger
-Simple iOS logger. Print log with time stamp, log level, file name, function name, and line number. Additionally, level icon is added at the head of the log to make you recognize level easily.
+Simple iOS logger in Swift. Print log with time stamp, log level, file name, function name, and line number. Additionally, level icon is added at the head of the log to make you recognize level easily.
 
 ##Example
 <img src="https://raw.githubusercontent.com/aac1109/SimLogger/master/SimLoggerExample.png" alt="Example" style="width: 690px;" />
